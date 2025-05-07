@@ -10,3 +10,4 @@ Mini project Laravel untuk UTS Pemrograman Web yang mencakup halaman Login, Dash
 ## Teknologi
 - Laravel 10
 - Bootstrap 5
+- Blade Template
