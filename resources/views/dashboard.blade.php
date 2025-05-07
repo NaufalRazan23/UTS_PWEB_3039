@@ -10,7 +10,7 @@
         <div class="card-body">
             <div class="alert alert-success">
                 <h4>Selamat datang, {{ $username }}!</h4>
-                <p>Ini adalah halaman dashboard dari Mini Project Laravel.</p>
+                <p>Ini adalah halaman dashboard dari Pengelola Inventaris.</p>
             </div>
 
             <div class="row mt-4">
@@ -25,7 +25,7 @@
                 <div class="col-md-4">
                     <div class="card bg-success text-white mb-3">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Item Aktif</h5>
+                            <h5 class="card-title">Item Baik</h5>
                             <h2>120</h2>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                 <div class="col-md-4">
                     <div class="card bg-warning text-dark mb-3">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Pending</h5>
+                            <h5 class="card-title">Perbaikan</h5>
                             <h2>45</h2>
                         </div>
                     </div>

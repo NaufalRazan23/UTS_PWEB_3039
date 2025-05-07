@@ -28,11 +28,11 @@
                                 <td>{{ $item['description'] }}</td>
                                 <td>
                                     @if($item['status'] == 'Active')
-                                        <span class="badge bg-success">{{ $item['status'] }}</span>
+                                        <span class="badge bg-success">Baik</span>
                                     @elseif($item['status'] == 'Inactive')
-                                        <span class="badge bg-danger">{{ $item['status'] }}</span>
+                                        <span class="badge bg-danger">Rusak</span>
                                     @else
-                                        <span class="badge bg-warning text-dark">{{ $item['status'] }}</span>
+                                        <span class="badge bg-warning text-dark">Perbaikan</span>
                                     @endif
                                 </td>
                                 <td>
@@ -58,7 +58,15 @@
                         </div>
                         <div class="card-body">
                             <p>{{ $item['description'] }}</p>
-                            <p><strong>Status:</strong> {{ $item['status'] }}</p>
+                            <p><strong>Status:</strong>
+                            @if($item['status'] == 'Active')
+                                Baik
+                            @elseif($item['status'] == 'Inactive')
+                                Rusak
+                            @else
+                                Perbaikan
+                            @endif
+                            </p>
                         </div>
                         <div class="card-footer">
                             <button class="btn btn-sm btn-primary w-100">Detail</button>
