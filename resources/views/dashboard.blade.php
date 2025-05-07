@@ -18,7 +18,7 @@
                     <div class="card bg-primary text-white mb-3">
                         <div class="card-body text-center">
                             <h5 class="card-title">Total Pengguna</h5>
-                            <h2>254</h2>
+                            <h2>2</h2>
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                     <div class="card bg-success text-white mb-3">
                         <div class="card-body text-center">
                             <h5 class="card-title">Item Baik</h5>
-                            <h2>120</h2>
+                            <h2>4</h2>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     <div class="card bg-warning text-dark mb-3">
                         <div class="card-body text-center">
                             <h5 class="card-title">Perbaikan</h5>
-                            <h2>45</h2>
+                            <h2>1</h2>
                         </div>
                     </div>
                 </div>
